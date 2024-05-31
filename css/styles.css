@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #FFA500, #FF6347); /* Orange gradient */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background for navbar */
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px; /* Increased spacing between navbar buttons */
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; /* No margin for the last navbar button */
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 32px; /* Larger text size */
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.about {
+    max-width: 40%;
+    float: right; /* Float the text to the right */
+    padding-left: 50px; /* Add some space between the image and the text */
+    text-align: center;
+}
+
+.about h1 {
+
+  font-size: 64px;
+  padding-bottom: 0px;
+
+}
+
+.about hr {
+
+  border-width:0;
+  height: 3px;
+  background-color: black;
+  width: 60%;
+
+}
+.about p {
+
+  font-size: 32px;
+
+}
+
+.image-container {
+    max-width: 20%;
+    flex: 1;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%; /* Round the image */
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.card {
+    margin: 20px;
+    max-width: 400px;
+    text-align: center;
+    background-image: linear-gradient(to top, #00A5ff, #4763FF);
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 400px;
+    text-align: center;
+    background-image: linear-gradient(to top, #00A5ff, #4763FF);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-item-text {
+    text-align: left;
+    padding: 20px;
+}
+
+.portfolio-item-text h3 {
+    margin-top: 0;
+}
+
+.portfolio-item-text p {
+    margin-bottom: 0;
+}
+
+.group {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+
+}
+
+.group hr {
+
+  border-width:0;
+  height: 3px;
+  background-color: black;
+  width: 80%;
+
+}
